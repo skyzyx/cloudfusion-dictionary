@@ -1,0 +1,45 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+d|entry {
+	font-family: 'Lucida Grande';
+	font-weight:normal;
+	font-size: medium;
+}
+
+h1	{
+	font-family:'Monaco';
+	font-weight:normal;
+	font-size:x-large;
+	margin-bottom: 0.2em;
+}
+
+span.syntax {
+	font-family:'Monaco';
+	font-weight:normal;
+	font-size:medium;
+	margin-bottom: 0.2em;
+	color: #666;
+}
+
+h2	{
+	font-family: 'Lucida Grande';
+	/*font-weight:normal;*/
+	font-size:large;
+	margin-bottom: 0.2em;
+}
+
+h3	{
+	font-family: 'Lucida Grande';
+	font-weight:normal;
+	font-size:medium;
+	margin-bottom: 0.2em;
+}
+
+h4	{
+	font-family: 'Lucida Grande';
+	font-weight:normal;
+	font-size:medium;
+	margin-top: 0.2em;
+	margin-bottom: 0.2em;
+}
