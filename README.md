@@ -11,26 +11,37 @@ Dictionary generation code based on [jQuery Dictionary](http://github.com/tuupol
 Dictionary file follows the same licensing terms as the CloudFusion documentation.
 
 
-## Install
+## If you want to simply install...
+
+Pull the code down from GitHub.
+
+	cd ~/Desktop
+	git clone git://github.com/skyzyx/cloudfusion-dictionary.git
+
+...or...
+
+	cd ~/Desktop
+	svn export git://github.com/skyzyx/cloudfusion-dictionary.git cloudfusion-dictionary
+
+Open the `cloudfusion-dictionary` folder on your desktop, and copy the `CloudFusion.dictionary` dictionary file to `~/Library/Dictionaries`.
+
+
+## If you want to build from source...
 
 You must have the latest [Xcode Developer Tools](http://developer.apple.com/technologies/xcode.html) from Apple installed.
 
-### Git
-
 	git clone git://github.com/skyzyx/cloudfusion-dictionary.git
-	cd cloudfusion-dictionary
+	cd cloudfusion-dictionary/src
 	make && make install
 
 ...or...
 
-### Subversion
-
-	svn co git://github.com/skyzyx/cloudfusion-dictionary.git cloudfusion-dictionary
-	cd cloudfusion-dictionary
+	svn co http://svn.github.com/skyzyx/cloudfusion-dictionary.git cloudfusion-dictionary
+	cd cloudfusion-dictionary/src
 	make && make install
 
 
-## Post-install
+## Enable the Dictionary
 
 1. Launch Dictionary.app
 2. If you don't see "CloudFusion" in the toolbar, open Preferences [Dictionary > Preferences].

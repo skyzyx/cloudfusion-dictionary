@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@namespace d url(http://www.apple.com/DTDs/DictionaryService-1.0.rng);
+
+* {
+	font-family: 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 0.1em;
+}
+
+h2 {
+	border-top: 1px dotted #999;
+	padding-top:0.3em;
+}
+
+h1, h2, h3 {
+	/*text-shadow: 0px 0px 0px #000;*/
+}
+
+span.syntax {
+	display: block;
+	font-weight: normal;
+	font-size: medium;
+	color: #666;
+	padding-top: 1em;
+}
+
+pre {
+	padding: 10px;
+	font-family: Monaco;
+	font-size: 12px;
+	background-color: #efefef;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+span.column {
+	display: block;
+	border: solid 2px #c0c0c0;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	padding: 0.5em;
+}
