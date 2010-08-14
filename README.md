@@ -21,7 +21,7 @@ Pull the code down from GitHub.
 ...or...
 
 	cd ~/Desktop
-	svn export git://github.com/skyzyx/cloudfusion-dictionary.git cloudfusion-dictionary
+	svn export http://svn.github.com/skyzyx/cloudfusion-dictionary.git cloudfusion-dictionary
 
 Open the `cloudfusion-dictionary` folder on your desktop, and copy the `CloudFusion.dictionary` dictionary file to `~/Library/Dictionaries`.
 
