@@ -46,3 +46,10 @@ You must have the latest [Xcode Developer Tools](http://developer.apple.com/tech
 1. Launch Dictionary.app
 2. If you don't see "CloudFusion" in the toolbar, open Preferences [Dictionary > Preferences].
 3. Enable the "CloudFusion" dictionary.
+
+
+## Force Spotlight re-index (Optional)
+
+You can force Spotlight to begin re-indexing (which includes Dictionary definitions) immediately with the following command:
+
+	sudo mdutil -E /
