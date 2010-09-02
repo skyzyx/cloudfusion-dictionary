@@ -10,6 +10,8 @@ Dictionary generation code based on [jQuery Dictionary](http://github.com/tuupol
 
 Dictionary file follows the same licensing terms as the CloudFusion documentation.
 
+**This project is incomplete! It's not worth your time to install it yet!**
+
 
 ## If you want to simply install...
 
